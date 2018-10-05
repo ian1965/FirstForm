@@ -16,5 +16,10 @@ namespace FirstForm
         {
             InitializeComponent();
         }
+        int i = 0;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Text = "Button 2 Pushed " + (++i).ToString() + " times ";
+        }
     }
 }
