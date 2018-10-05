@@ -21,5 +21,10 @@ namespace FirstForm
         {
             this.Text = "Button 2 Pushed " + (++i).ToString() + " times ";
         }
+        int i = 1;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = "Btn 1 pressed " + (i++).ToString() + " times.";
+        }
     }
 }
