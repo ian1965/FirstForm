@@ -16,5 +16,10 @@ namespace FirstForm
         {
             InitializeComponent();
         }
+        int i = 1;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = "Btn 1 pressed " + (i++).ToString() + " times.";
+        }
     }
 }
