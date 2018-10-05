@@ -84,7 +84,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "heel";
             this.ResumeLayout(false);
             this.PerformLayout();
 
